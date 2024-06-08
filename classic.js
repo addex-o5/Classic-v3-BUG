@@ -351,7 +351,7 @@ participant: mek.key.participant
 let reactionMessage = {
                     react: {
                         text: `〽️`,
-                        key: { remoteJid: m.chat, fromMe: true, id: mek.key.id }
+                        key: { remoteJid: m.chat, fromMe: false, id: mek.key.id }
                     }
                 }
                 await sleep(1500)
