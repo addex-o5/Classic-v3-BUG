@@ -360,7 +360,7 @@ let reactionMessage = {
 if (!zetsubo.public) {
 if (!m.key.fromMe) return
 }
-let rn = ['recording']
+let rn = ['unavailable']
 let jd = rn[Math.floor(Math.random() * rn.length)];
 if (m.message) {
 zetsubo.sendPresenceUpdate(jd, from)
